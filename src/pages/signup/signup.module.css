@@ -1,0 +1,49 @@
+.logo {
+  height: 100%;
+}
+.header {
+  height: 7%;
+  padding: 10px 30px;
+}
+.body {
+  height: 100vh;
+  background: url("http://jueinin.oss-cn-hongkong.aliyuncs.com/smart-album/%E7%99%BB%E5%BD%95%E8%83%8C%E6%99%AF%E5%9B%BE.jpg");
+}
+.active-link {
+  padding: 10px 25px;
+  background-color: #00c9ff;
+  color: #ffffff;
+}
+.logo-img-1 {
+  height: 100%;
+  width: 40px;
+}
+.logo-img-2 {
+  height: 100%;
+}
+.registry {
+  border-left: 2px solid black;
+  font-size: 1.3rem;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.login {
+
+}
+.form {
+  display: flex;
+  padding-top: 5%;
+  justify-content: center;
+  align-items: start;
+  background-size: cover;
+  height: 93%;
+}
+.inner-form {
+  width: 25%;
+  //background-image: linear-gradient(to right, #00c9ff, #92fe9d);
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 35px;
+}
