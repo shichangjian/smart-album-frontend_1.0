@@ -7,6 +7,7 @@ class MainRoute extends Component {
     render() {
         return (
             <div>
+                {/* Route是路由 */}
                 <Route path={'/'} component={IndexPage}/>
             </div>
         );
