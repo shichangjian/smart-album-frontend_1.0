@@ -446,11 +446,6 @@ class AlbumList extends Component<Props,State> {   //这玩意儿不要type prop
                   <CustomNavLink exact to={'/albumList/my'}>我的相册</CustomNavLink>
                 </MenuItem>
 
-                {/* 相册分类，记得写专属的类 */}
-                <MenuItem key={'rubbish'}>
-                  <CustomNavLink to={'/albumList/recycleBin'}>标签分类</CustomNavLink>
-                </MenuItem>
-
                 <MenuItem key={'rubbish'}>
                   <CustomNavLink to={'/albumList/recycleBin'}>回收站</CustomNavLink>
                 </MenuItem>
