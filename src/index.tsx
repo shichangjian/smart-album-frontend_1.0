@@ -45,7 +45,7 @@ ReactDOM.render(
           <Route path={'/backend'} component={BackendRoute}/>
           <Route path={"/signin"} component={SignIn}/>
           <Route path={"/signup"} component={SignUp}/>
-          <Route path={'/albumlist'} render={props => <AlbumList/>}/>  {/* mobx 可以直接套render  就是最外层需要个wrapper*/}
+          <Route path={'/albumlist'} render={props => <AlbumList/>}/>  {/* mobx  可以直接套render  就是最外层需要个wrapper*/}
           <Route path={"/personalCenter"} component={PersonalCenterWrapper}/>
           <Route path={'/resetPassword'} component={ResetPassword}/>
           <Route path={'/retrievePassword'} component={RetrievePassword}/>
